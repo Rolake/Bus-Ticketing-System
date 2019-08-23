@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    position: relative;
+    overflow: auto;
+}
+body{
+    height: 100vh;
+}
+.one{
+    background-color:  #cce5ff;
+    width: 40%;
+    float: left;
+    overflow: auto;
+    position: relative;
+    height: 100vh;
+}
+.two{
+    background-color: #b3d7ff;
+    width: 20%;
+    float: left;
+    overflow: auto;
+    position: relative;
+    height: 100vh;
+}
+.three{
+    background-color: #cce5ff;
+    width: 40%;
+    float: left;
+    overflow: auto;
+    position: relative;
+    height: 100vh;
+}
+.four{
+    background-color:  #e6f2ff;
+    overflow: auto;
+    width: 90%;
+    position: absolute;
+    top: 7%;
+    padding-top: 10px;
+    bottom: 7%;
+    left: 5%;
+    right: 5%;
+}
+.bus{
+    margin-left: 10px;
+}
+.nav1{
+    text-decoration: none;
+    color: black;
+    margin-left: 700px;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
