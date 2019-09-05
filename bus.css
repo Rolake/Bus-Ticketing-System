@@ -1,0 +1,121 @@
+body{
+    height: 100vh;
+    padding:0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+.one{
+    background-color:  #cce5ff;
+    width: 40%;
+    float: left;
+    overflow: auto;
+    position: relative;
+    height: 100vh;
+}
+.two{
+    background-color: #b3d7ff;
+    width: 20%;
+    float: left;
+    overflow: auto;
+    position: relative;
+    height: 100vh;
+}
+.three{
+    background-color: #cce5ff;
+    width: 40%;
+    float: left;
+    overflow: auto;
+    position: relative;
+    height: 100vh;
+}
+.four{
+    background-color:  #e6f2ff;
+    overflow: auto;
+    width: 90%;
+    position: absolute;
+    top: 7%;
+    padding-top: 10px;
+    bottom: 7%;
+    left: 5%;
+    right: 5%;
+}
+.five{
+    position:absolute;
+    /*margin-left: 50px;
+    margin-top: 10px;*/
+}
+.five,.six{
+    width: 35%;
+    float: left;
+    position: relative;
+    height: auto;
+}
+h1{
+    margin-top: 100px;
+}
+h1,h3{
+    font-family: sans-serif;
+}
+h3{
+    font-weight: lighter; 
+}
+/*header .heading{
+    height: 5px;
+}*/
+header{
+    padding: 5px;
+}
+header a{
+    text-decoration: none;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+header #Bus{
+    float:left;
+    margin-left:30px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+.nav1{
+    color: black;
+}
+/*section {
+    float: left;
+    margin: 0 1.5%;
+    width: 45%;
+}*/
+.signup{
+    background-color: #e6f1ff;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+.fa-bus{
+    font-size: 20px;
+    margin: 5px 2px;
+}
+.icons{
+    padding-top: 120px;
+}
+.fa-facebook, .fa-twitter, .fa-instagram{
+    padding: 2px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}  

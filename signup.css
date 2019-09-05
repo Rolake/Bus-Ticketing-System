@@ -1,0 +1,66 @@
+.four{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(204, 229, 255, 0.52));
+}
+.details{
+    background-color: white;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    top: 5%;
+    bottom: 5%;
+    right: 5%;
+    left: 5%;
+    overflow: auto;
+    border: 2px solid black;
+}
+.userdetails{ 
+    background-color: #f5f5ef;
+    height: 30px;
+    width: 80%;
+    font-weight: bold;
+    padding-right: 25px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 15px;
+}
+h2, h4{
+    font-family: sans-serif;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-right: 25px;
+}
+.signup{
+    background-color: black;
+    width: 60%;
+    height: 40px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+}
+.bussignup{
+    text-decoration: none;
+}
+.login{
+    margin-left: 45px;
+    margin-right: 25px;
+    color: black;
+    position: relative;
+    bottom: 0;
+}
+.login h5{
+    font-weight: bold;
+    font-family: sans-serif;
+}

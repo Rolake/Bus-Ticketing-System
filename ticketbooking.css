@@ -1,0 +1,38 @@
+.four{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(204, 229, 255, 0.52));
+}
+.details{
+    height: 50vh;
+    width: 50%;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    top: 7%;
+    bottom: 7%;
+    right: 7%;
+    left: 7%;
+    margin: auto;
+    position: absolute;
+    overflow: auto;
+}
+.userdetails{ 
+    height: 20px;
+    width: 600px;
+    font-weight: bold;
+    /*position: relative;*/
+    float: left;
+}
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:5px;
+    margin-top: 20px;
+}
